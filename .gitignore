@@ -6,3 +6,4 @@ test/fixtures/**/*.js
 test/fixtures/**/*.js.map
 test/fixtures/**/*.d.ts
 /.idea
+/package-lock.json

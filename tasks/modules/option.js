@@ -268,7 +268,8 @@ function createGruntOption(source, grunt, gruntFile, logger) {
             noEmitHelpers: boolOrUndef(source, "noEmitHelpers"),
             jsx: prepareJsx(source),
             moduleResolution: prepareModuleResolution(source),
-            allowJs: boolOrUndef(source, "allowJs")
+            allowJs: boolOrUndef(source, "allowJs"),
+            stripInternal: boolOrUndef(source, "stripInternal"),
         }
     };
     logger.verbose("--option");
