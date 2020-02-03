@@ -270,6 +270,7 @@ function createGruntOption(source, grunt, gruntFile, logger) {
             moduleResolution: prepareModuleResolution(source),
             allowJs: boolOrUndef(source, "allowJs"),
             stripInternal: boolOrUndef(source, "stripInternal"),
+            emitDeclarationOnly: boolOrUndef(source, "emitDeclarationOnly"),
         }
     };
     logger.verbose("--option");
